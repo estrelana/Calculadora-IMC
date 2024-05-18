@@ -1,0 +1,152 @@
+:root {
+    --corVerde: #CCD5AE;
+    --corPreto: #463F3A;
+    --corBranco: #F5F5F5;
+    --corVerdeEscuro:#606C38;
+    --fonteH1: 'H1Font';
+}
+
+@font-face {
+    font-family: H1Font;
+    src: url('./fontes/athiya/Athiya\ Regular.otf') format('opentype');
+    font-weight: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-color: var(--corVerde);
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+main{
+    background-color: var(--corBranco);
+    margin: 30px 25px;
+    border-radius: 20px;
+    padding: 30px 25px;
+}
+
+.s1{ 
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.s1 div{
+    display: flex;
+}
+.s1 div label{
+    margin-right: 4px;
+}
+
+
+input, select  {
+    display: block;
+    background-color: var(--corBranco);
+    border-radius: 6px;
+    border:2px solid #CCD5AE;
+    color: var(--corPreto);
+    height: 24px;
+    width: 90%;
+    margin-bottom: 10px; /* Adiciona um espaçamento entre os inputs */
+}
+
+button{
+    background-color: var(--corVerde);
+    color:var(--corPreto);
+    height: 24px;
+    width: 115px;
+    border-radius: 6px;
+}
+
+.s2{
+    display: flex;
+    margin-top: 40px;
+}
+
+.s2-box {
+    border:2px solid #CCD5AE; 
+    flex:1;
+padding: 20px;
+}
+
+.s2-box:first-child{
+    margin-right: 10px;
+    display: flex;
+}
+
+#valorImc{
+    color: var(--corVerdeEscuro);
+    font-size: 60px;
+}
+
+.s2-box1{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.s2-box2{
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    width: 90%;
+}
+
+.s2 h2{
+    font-size: 20px;
+}
+
+.s2-box22 p{
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.s3{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.s3 h3{
+    font-size: 24px;
+    margin-bottom: 19px;
+}
+
+.s3 strong{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.s3 h4{
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.s3 p{
+width: 90%;
+}
+
+.s3-box{
+    display: flex;
+}
+
+.box3{
+    flex: 1;
+    margin-right: 5px;
+    color: #403d39;
+}
+
+.s3 img{
+    opacity: .3;
+    height: 174px;
+    width: 80px;
+}
