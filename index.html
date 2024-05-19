@@ -16,13 +16,14 @@
         <form action="" class="s1" id="s1">
             <div><label for="genero">Gênero</label><br>
                 <select name="genero" id="genero">
-                    <option value="">Selecione um gênero!</option>
+                    <option value="">Selecione</option>
                     <option value="fem">Feminino</option>
                     <option value="mas">Masculino</option>
                 </select>
             </div>
             <br>
-            <div> <label for="idade">Idade</label>
+            <div id="campIdade"> 
+                <label for="idade">Idade</label>
                 <input type="number" id="idade" name="idade">
             </div>
 
@@ -60,33 +61,35 @@
         <section class="s3">
             <h3>Entenda seus resultados:</h3>
             <div class="s3-box">
-                <div class="box3" id="imc6">
-                    <img src="./img/ob23.webp" id="f1">
-                    <br>
-                    <strong>Acima de 40,0</strong>
-                    <h4>Obesidade
-                        grau III</h4>
-                    <p>Aqui o sinal é vermelho, com forte probabilidade de já existirem doenças muito graves associadas.
-                        O tratamento deve ser ainda mais urgente.</p>
+                <div class="teste">
+                    <div class="box3" id="imc6">
+                        <img src="./img/ob23.webp" id="f1" alt="Silhueta obsidade grau 3">
+                        <br>
+                        <strong>Acima de 40,0</strong>
+                        <h4>Obesidade
+                            grau III</h4>
+                        <p>Aqui o sinal é vermelho, com forte probabilidade de já existirem doenças muito graves associadas.
+                            O tratamento deve ser ainda mais urgente.</p>
+                    </div>
+                    <div class="box3" id="imc5">
+                        <img src="./img/obs2.webp" id="f2" alt="Silhueta obsidade grau 2">
+                        <br>
+                        <strong>Entre 35,0 e 39,9</strong>
+                        <h4>Obesidade grau II</h4>
+                        <p>Mesmo que seus exames aparentem estar normais, é hora de se cuidar, iniciando mudanças no estilo
+                            de vida com profissionais de saúde.</p>
+                    </div>
+                    <div class="box3" id="imc4">
+                        <img src="./img/obs1.webp" id="f3" alt="Silhueta obesidade grau 1">
+                        <br>
+                        <strong>Entre 30,0 e 34,9</strong>
+                        <h4>Obesidade grau I</h4>
+                        <p>Chegou na hora de se cuidar, mesmo que seus exames sejam normais. Vamos dar
+                            início a mudanças hoje! Cuide de sua alimentação.</p>
+                    </div>
                 </div>
-                <div class="box3" id="imc5">
-                    <img src="./img/obs2.webp" id="f2">
-                    <br>
-                    <strong>Entre 35,0 e 39,9</strong>
-                    <h4>Obesidade grau II</h4>
-                    <p>Mesmo que seus exames aparentem estar normais, é hora de se cuidar, iniciando mudanças no estilo
-                        de vida com profissionais de saúde.</p>
-                </div>
-                <div class="box3" id="imc4">
-                    <img src="./img/obs1.webp" id="f3">
-                    <br>
-                    <strong>Entre 30,0 e 34,9</strong>
-                    <h4>Obesidade grau I</h4>
-                    <p>Chegou na hora de se cuidar, mesmo que seus exames sejam normais. Vamos dar
-                        início a mudanças hoje! Cuide de sua alimentação.</p>
-                </div>
-                <div class="box3" id="imc3">
-                    <img src="./img/sobrepeso.webp" id="f4">
+                <div class="teste"><div class="box3" id="imc3">
+                    <img src="./img/sobrepeso.webp" id="f4" alt="Silhueta sobrepeso">
                     <br>
                     <strong>Entre 25,0 e 29,9</strong>
                     <h4>Sobrepeso</h4>
@@ -94,7 +97,7 @@
                         associadas, como diabetes e hipertensão.</p>
                 </div>
                 <div class="box3" id="imc2">
-                    <img src="./img/normal.webp" id="f5">
+                    <img src="./img/normal.webp" id="f5" alt="Silhueta normal">
                     <br>
                     <strong>Entre 18,6 e 24,9</strong>
                     <h4>Normal</h4>
@@ -102,14 +105,20 @@
                         de vida ativo e uma alimentação equilibrada.</p>
                 </div>
                 <div class="box3" id="imc1">
-                    <img src="./img/desnutrido.webp" id="f6">
+                    <img src="./img/desnutrido.webp" id="f6" alt="Silhueta desnutrida">
                     <br>
                     <strong>18,5 ou menos</strong>
                     <h4>Abaixo do normal</h4>
                     <p>Algumas pessoas têm um baixo peso por características do seu organismo e tudo
                         bem. Outras podem estar enfrentando problemas, como a desnutrição.</p>
                 </div>
-            </div>
+            </div></div>
+        </section>
+        <section class="s4">
+            <img src="./img/nutricionista.jpg" alt="foto da nutricionista Yolanda Torres">
+            <strong>Nutricionista</strong>
+            <h1>Yolanda Torres</h1>
+            <a>Agende sua consulta!</a>
         </section>
     </main>
     <script src="./scrpt.js"></script>
