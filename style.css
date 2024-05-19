@@ -206,6 +206,9 @@ button {
 }
 
 @media (max-width:550px) {
+    #valorImc {
+        font-size: 35px;
+    }
     .s3-box {
         display: flex;
         flex-wrap: nowrap;
